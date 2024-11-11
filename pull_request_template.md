@@ -8,7 +8,7 @@
 
 # Project Planning Tool User Story / Defect Number | Issue #
 <!--
-Include what project planning item was completed (or partially completed) by this PR
+Include what project planning item was completed (or partially completed) by this PR.
 -->
 
 
@@ -18,7 +18,7 @@ Verification is about testing that the changes match intent (i.e., requirements)
 -->
 ## Unit Tests
 <!--
-All changes must be accompanied by unit tests. This shall be enforced with a CI pipeline quality gate.
+All changes must be accompanied by unit tests. This shall be enforced by a CI pipeline quality gate.
 -->
 
 ## HIL Tests (if applicable)
@@ -28,7 +28,7 @@ If applicable, a HIL automated test would be great to mention here.
 
 ## System Tests
 <!--
-Unit tests test a module in isolation. System tests test a module in the system it interacts wit.
+Unit tests assess a module in isolation. System tests assess a module in the system it interacts with.
 Mention those system tests here. A simulation environment is adequate for this.
 -->
 
@@ -43,7 +43,7 @@ Validation is about checking if the changes _feel_ right.
 -->
 ## End-User Testing
 <!--
-Ideally, any changes will also have been tested by end-users
+Ideally, any changes will also have been evaluated by end-users.
 -->
 
 
@@ -59,7 +59,7 @@ Do mention them here!
 
 # Upstream / Downstream Repositories
 <!--
-Mono-repos have the potential to be unweildly, and I prefer to have the pieces of my software split up and isolated.
+Mono-repos have the potential to be unwieldy, and I prefer to have the pieces of my software split up and isolated.
 Mention any upstream or downstream dependencies that were updated for this particular set of changes.
 -->
 
@@ -77,5 +77,5 @@ Make sure all the items below are checked off. If an item is not applicable, rem
 - [ ] Ensure the package version changed appropriately according to semantic versioning.
 - [ ] The `CHANGELOG.md` has been updated
 - [ ] The `README.md` has been updated if applicable
-- [ ] All compiler, linker, and static analysis warnings have been resolved / supressed-if-justified
+- [ ] All compiler, linker, and static analysis warnings have been resolved / suppressed-if-justified
 - [ ] The MISRA C 2023 coding _directives_ have been followed (static analysis can enforce rules but not directives)
