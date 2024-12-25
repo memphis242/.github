@@ -70,7 +70,7 @@ Reference the requirements that led to this change. If there were none, there ne
 -->
 
 
-# Miscellaneous Checklist
+# Quality Checklist
 <!--
 Make sure all the items below are checked off. If an item is not applicable, remove it from the PR description.
 -->
@@ -78,4 +78,8 @@ Make sure all the items below are checked off. If an item is not applicable, rem
 - [ ] The `CHANGELOG.md` has been updated
 - [ ] The `README.md` has been updated if applicable
 - [ ] All compiler, linker, and static analysis warnings have been resolved / suppressed-if-justified
-- [ ] The MISRA C 2023 coding _directives_ have been followed (static analysis can enforce rules but not directives)
+- [ ] MISRA C
+   - [ ] Coding directives have been followed where applicable (static analysis can enforce rules but not directives)
+   - [ ] Coding rules that are **mandatory** have been complied with
+   - [ ] Coding rules that are **required** have been complied with or clearly justified
+   - [ ] Coding rules that are _advisory_ have been complied with or clearly justified
